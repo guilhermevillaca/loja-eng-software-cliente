@@ -13,7 +13,7 @@ export class CategoriaService {
     }
 
     public getCategorias(){                
-        return firstValueFrom(this.http.get(`http://localhost/atv1/categorias`));  
+        return firstValueFrom(this.http.get(`http://localhost/loja-disc-eng-software/categorias`));  
     }
 
 }
